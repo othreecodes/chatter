@@ -20,7 +20,8 @@ defmodule Chatter.Mixfile do
   def application do
     [
       mod: {Chatter, []},
-      extra_applications: [:logger]
+      extra_applications: [:logger],
+      env: [admin_user: "danny"]
     ]
   end
 

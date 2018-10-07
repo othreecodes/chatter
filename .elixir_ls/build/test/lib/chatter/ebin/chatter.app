@@ -10,10 +10,12 @@
                         'Elixir.Chatter.LayoutView',
                         'Elixir.Chatter.ModelCase',
                         'Elixir.Chatter.PageController',
-                        'Elixir.Chatter.PageView','Elixir.Chatter.Repo',
+                        'Elixir.Chatter.PageView','Elixir.Chatter.Presence',
+                        'Elixir.Chatter.Repo','Elixir.Chatter.RoomChannel',
                         'Elixir.Chatter.Router',
                         'Elixir.Chatter.Router.Helpers',
                         'Elixir.Chatter.UserSocket','Elixir.Chatter.Web']},
               {registered,[]},
               {vsn,"0.0.1"},
-              {mod,{'Elixir.Chatter',[]}}]}.
+              {mod,{'Elixir.Chatter',[]}},
+              {env,[{admin_user,<<"danny">>}]}]}.
